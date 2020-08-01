@@ -1,90 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Marco | Angular 10+ Material Design Template</title>
-    <meta name="description" content="Pure Angular template">
-    <base href="https://vishalnavino.github.io/githubpages/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Material+Icons"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Thyme App</title>
 
-    <style>
-      .app-loader {
-        height: 100vh !important;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: flex;
-        align-items: center;
-      }
-      .spinner {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        margin: auto;
-      }
-      .double-bounce1,
-      .double-bounce2 {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        opacity: 0.6;
-        position: absolute;
-        top: 0;
-        left: 0;
-        -webkit-animation: sk-bounce 2s infinite ease-in-out;
-        animation: sk-bounce 2s infinite ease-in-out;
-      }
-      .double-bounce2 {
-        -webkit-animation-delay: -1s;
-        animation-delay: -1s;
-      }
-      @-webkit-keyframes sk-bounce {
-        0%,
-        100% {
-          -webkit-transform: scale(0);
-        }
-        50% {
-          -webkit-transform: scale(1);
-        }
-      }
-      @keyframes sk-bounce {
-        0%,
-        100% {
-          transform: scale(0);
-          -webkit-transform: scale(0);
-        }
-        50% {
-          transform: scale(1);
-          -webkit-transform: scale(1);
-        }
-      }
-    </style>
-  <link rel="stylesheet" href="styles.7a31f75b07cb2109977b.css"></head>
-  <body class="marco-blue">
-    <app-root>
-      <div class="app-loader">
-        <div class="spinner">
-          <div
-            class="double-bounce1 mat-bg-primary"
-            style="background: #fcc02e;"
-          ></div>
-          <div
-            class="double-bounce2 mat-bg-accent"
-            style="background: #03a9f4;"
-          ></div>
-        </div>
-      </div>
-    </app-root>
+  <base href="https://vishalnavino.github.io/githubpages/">
 
-    <!-- <script>
-    __Zone_enable_cross_context_check = true;
-  </script> -->
-  <script src="runtime-es2015.0d4a42eeceb363881d14.js" type="module"></script><script src="runtime-es5.0d4a42eeceb363881d14.js" nomodule defer></script><script src="polyfills-es5.5e6639bfc7dd2d2d517d.js" nomodule defer></script><script src="polyfills-es2015.e2c84b75e5cd235aa1c4.js" type="module"></script><script src="scripts.164bc50a6d51db924e9d.js" defer></script><script src="main-es2015.88213f95dd61c3797f42.js" type="module"></script><script src="main-es5.88213f95dd61c3797f42.js" nomodule defer></script></body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="styles.79354756a59a94444090.css"></head>
+<body>
+  <ngx-app>Loading...</ngx-app>
+
+  <style>@-webkit-keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@-moz-keyframes spin{0%{-moz-transform:rotate(0)}100%{-moz-transform:rotate(360deg)}}@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.spinner{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1003;background: #ffffff;overflow:hidden}  .spinner div:first-child{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;box-shadow:0 3px 3px 0 rgba(28,97,1,1);transform:translate3d(0,0,0);animation:spin 2s linear infinite}  .spinner div:first-child:after,.spinner div:first-child:before{content:'';position:absolute;border-radius:50%}  .spinner div:first-child:before{top:5px;left:5px;right:5px;bottom:5px;box-shadow:0 3px 3px 0 rgb(79, 168,4);-webkit-animation:spin 3s linear infinite;animation:spin 3s linear infinite}  .spinner div:first-child:after{top:15px;left:15px;right:15px;bottom:15px;box-shadow:0 3px 3px 0 rgba(89, 83, 83,1);animation:spin 1.5s linear infinite}</style>
+  <div id="nb-global-spinner" class="spinner">
+    <div class="blob blob-0"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+    <div class="blob blob-5"></div>
+  </div>
+
+<script src="runtime-es2015.2a05783e88b1481be363.js" type="module"></script><script src="runtime-es5.2a05783e88b1481be363.js" nomodule defer></script><script src="polyfills-es5.b210330cee81f273bf76.js" nomodule defer></script><script src="polyfills-es2015.90cf64790a1753cd2c0b.js" type="module"></script><script src="scripts.1e5fe56c267dc1f8cf5c.js" defer></script><script src="main-es2015.1befdb690b74e68bfd8e.js" type="module"></script><script src="main-es5.1befdb690b74e68bfd8e.js" nomodule defer></script></body>
 </html>

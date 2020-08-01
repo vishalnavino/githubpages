@@ -1,70 +1,70 @@
 {
-	"menu": {
+	  "menu": {
 		"employee": {
-			"mainTitle": "Employee",
-			"urls": "/pages/en/employee"
+			"mainTitle": "Mitarbeiter",
+			"urls": "/pages/employee"
 		},
 		"shifts": {
-			"mainTitle": "Shift",
-			"urls": "/pages/en/shifts"
+			"mainTitle": "Schichten",
+			"urls": "/pages/shifts"
 		},
 		"sicknote": {
-			"mainTitle": "Sick Note",
-			"urls": "/pages/en/sick-notes"
+			"mainTitle": "Krankheit",
+			"urls": "/pages/sick-notes"
 		},
 		"holiday": {
-			"mainTitle": "Holiday",
-			"urls": "/pages/en/holidays"
+			"mainTitle": "Urlaub",
+			"urls": "/pages/holidays"
 		},
 		"settings": {
-			"mainTitle": "Setting",
-			"urls": "/pages/en/settings"
+			"mainTitle": "Einstellungen",
+			"urls": "/pages/settings"
 		}
 	},
 	"links": [
 		{
-			"title": "Employee",
+			"title": "Mitarbeiter",
 			"icon": "people-outline",
-			"link": "/pages/employee"
+			"link": "/pages/de/employee"
 		},
 		{
-			"title": "Shifts",
+			"title": "Schichten",
 			"icon": "browser-outline",
-			"link": "/pages/shifts"
+			"link": "/pages/de/shifts"
 		},
 		{
-			"title": "Holidays",
+			"title": "Urlaub",
 			"icon": "keypad-outline",
-			"link": "/pages/holidays"
+			"link": "/pages/de/holidays"
 		},
 		{
-			"title": "Sick Notes",
+			"title": "Krankheit",
 			"icon": "edit-2-outline",
-			"link": "/pages/sick-notes"
+			"link": "/pages/de/sick-notes"
 		},
 		{
-			"title": "Setting",
+			"title": "Einstellungen",
 			"icon": "lock-outline",
-			"link": "/pages/settings"
+			"link": "/pages/de/settings"
 		}
 	],
-	"dataLoading": "Data is being loaded...",
+	"dataLoading" : "Daten werden geladen...",
 	"statistics": {
 		"graph": {
-			"title": "Working hours (without break deduction)",
+			"title": "Arbeitsstunden (ohne Pausenabzug)",
 			"selection": [
 				{
-					"text": "Monthly",
+					"text": "monatlich",
 					"value": "monthly"
 				},
 				{
-					"text": "Yearly",
+					"text": "jährlich",
 					"value": "yearly"
 				}
 			]
 		},
 		"table": {
-			"title": "Open layers",
+			"title": "Offene Schichten",
 			"settings": {
 				"columns": {
 					"name": {
@@ -72,7 +72,7 @@
 						"type": "string"
 					},
 					"value": {
-						"title": "Value",
+						"title": "Wert",
 						"type": "string"
 					}
 				}
@@ -80,9 +80,9 @@
 		}
 	},
 	"employee": {
-		"title": "Employee",
+		"title": "Mitarbeiter",
 		"tableColumn": {
-			"noDataMessage": "Employee not found.",
+			"noDataMessage": "Mitarbeiterdaten nicht gefunden",
 			"add": {
 				"addButtonContent": "<i class='nb-plus'></i>",
 				"createButtonContent": "<i class='nb-checkmark'></i>",
@@ -112,106 +112,106 @@
 					"type": "string"
 				},
 				"type": {
-					"title": "Type",
+					"title": "Typ",
 					"type": "string"
 				},
 				"gross_salary_month": {
-					"title": "Salary",
+					"title": "Gehalt",
 					"type": "string"
 				},
 				"contract_hours_month": {
-					"title": "Contract hours",
+					"title": "Vertragsstunden",
 					"type": "number"
 				}
 			}
 		},
-		"button": "Export"
+		"button": "Exportieren"
 	},
 	"employeeAdd": {
-		"title": "Basic information",
+		"title": "Mitarbeiter Erstellen",
 		"form": {
 			"name": {
 				"label": "Name",
-				"errorMsg": "Name Is Required"
-			},
-			"pin": {
-				"label": "Pin"
+				"errorMsg": "Name ist erforderlich"
 			},
 			"mobile": {
-				"label": "Mobile",
-				"errorMsg": "Please, Enter 11 digit Mobile Number."
+				"label": "Handy, Mobiltelefon",
+				"errorMsg": "Bitte geben Sie eine 11-stellige Handynummer ein."
+			},
+			"pin": {
+				"label": "PIN"
 			},
 			"descr": {
-				"label": "Description"
+				"label": "Beschreibung"
 			},
 			"gsm": {
-				"label": "Gross Salary Month"
+				"label": "Bruttogehalt (monatlich)"
 			},
 			"his": {
-				"label": "Health Insurance Share"
+				"label": "Krankenversicherungsanteil"
 			},
 			"type": {
-				"label": "Type"
+				"label": "Typ"
 			},
 			"ec": {
-				"label": "Employment Contract"
+				"label": "Arbeitsvertrag"
 			},
 			"ch": {
-				"label": "Contract Hours (weekly)"
+				"label": "Vertragsstunden (wöchentlich)"
 			},
 			"surcharge": {
-				"label": "Surcharge"
+				"label": "Zuschlag"
 			},
 			"lhm": {
-				"label": "Limit Hours (monthly)"
+				"label": "Stundenlimit (monatlich)"
 			}
 		},
-		"buttonSubmit": "Create employee"
+		"buttonSubmit": "Mitarbeiter erstellen"
 	},
 	"employeeEdit": {
-		"title": "Basic information",
+		"title": "Basisinformationen",
 		"form": {
 			"name": {
 				"label": "Name",
-				"errorMsg": "Name Is Required"
+				"errorMsg": "Name ist erforderlich"
 			},
 			"pin": {
-				"label": "Pin"
+				"label": "PIN"
 			},
 			"descr": {
-				"label": "Description"
+				"label": "Beschreibung"
 			},
 			"gsm": {
-				"label": "Gross Salary Month"
+				"label": "Bruttogehalt (monatlich)"
 			},
 			"his": {
-				"label": "Health Insurance Share"
+				"label": "Krankenversicherungsanteil"
 			},
 			"type": {
-				"label": "Type"
+				"label": "Typ"
 			},
 			"ec": {
-				"label": "Employment Contract"
+				"label": "Arbeitsvertrag"
 			},
 			"ch": {
-				"label": "Contract Hours (weekly)"
+				"label": "Vertragsstunden (wöchentlich)"
 			},
 			"surcharge": {
-				"label": "Surcharge"
+				"label": "Zuschlag"
 			},
 			"lhm": {
-				"label": "Limit Hours (monthly)"
+				"label": "Stundenlimit (monatlich)"
 			}
 		},
-		"buttonSubmit": "Update Basic Information",
-		"clearButton": "Delete",
+		"buttonSubmit": "Basisinformationen aktualisieren",
+		"clearButton": "löschen",
 		"timesheet": {
-			"title": "Entries",
+			"title": "Einträge",
 			"tab1": {
-				"title": "Timestamps",
-				"btn": "Add Time Stamp",
+				"title": "Zeitstempel",
+				"btn": "Zeitstempel hinzufügen",
 				"setting": {
-					"noDataMessage": "No Timestamps Found.",
+					"noDataMessage": "Keine Zeitstempel gefunden.",
 					"add": {
 						"addButtonContent": "<i class='nb-plus'></i>",
 						"createButtonContent": "<i class='nb-checkmark'></i>",
@@ -230,34 +230,32 @@
 					},
 					"columns": {
 						"id": {
-							"title": "ID",
+							"title": "Id",
 							"type": "string",
 							"editable": false
 						},
 						"from_time_without_t": {
-							"title": "From",
-							"type": "string",
-							"width": "200px"
+							"title": "Von",
+							"type": "string"
 						},
 						"to_time_without_t": {
-							"title": "To",
-							"type": "string",
-							"width": "200px"
+							"title": "Bis",
+							"type": "string"
 						},
 						"note": {
-							"title": "Note",
+							"title": "Hinweis",
 							"type": "string"
 						},
 						"manual_time": {
-							"title": "Manual Time",
+							"title": "Manuelle Zeit",
 							"type": "number"
 						}
 					}
 				}
 			},
 			"tab2": {
-				"title": "Sick Notes",
-				"btn": "Add Sick Note",
+				"title": "Kranke Notizen",
+				"btn": "Kranke Notiz hinzufügen",
 				"setting": {
 					"noDataMessage": "No Sick Notes Found.",
 					"add": {
@@ -283,25 +281,25 @@
 							"editable": false
 						},
 						"from_time_working_type": {
-							"title": "From",
+							"title": "Von",
 							"type": "string"
 						},
 						"to_time_working_type": {
-							"title": "To",
+							"title": "Zu",
 							"type": "string"
 						},
 						"note": {
-							"title": "Note",
+							"title": "Hinweis",
 							"type": "string"
 						}
 					}
 				}
 			},
 			"tab3": {
-				"title": "Holidays",
-				"btn": "Add Holiday",
+				"title": "Urlaub",
+				"btn": "Urlaub hinzufügen",
 				"setting": {
-					"noDataMessage": "No Holidays Found.",
+					"noDataMessage": "Kein Urlaub gefunden.",
 					"add": {
 						"addButtonContent": "<i class='nb-plus'></i>",
 						"createButtonContent": "<i class='nb-checkmark'></i>",
@@ -325,15 +323,15 @@
 							"editable": false
 						},
 						"from_time_working_type": {
-							"title": "From",
+							"title": "Von",
 							"type": "string"
 						},
 						"to_time_working_type": {
-							"title": "To",
+							"title": "Zu",
 							"type": "string"
 						},
 						"note": {
-							"title": "Note",
+							"title": "Hinweis",
 							"type": "string"
 						}
 					}
@@ -341,31 +339,31 @@
 			}
 		},
 		"rights": {
-			"mainTitle": "Right",
-			"label": "Editing working hours",
+			"mainTitle": "Rechte",
+			"label": "Editieren der Arbeitszeiten",
 			"toggle": {
-				"right": "Allowed",
-				"left": "Not Allowed",
-				"submit": "Update Rights"
+				"right": "Erlaubt",
+				"left": "Nicht erlaubt",
+				"submit": "Rechte Aktualisieren"
 			}
 		}
 	},
 	"shift": {
-		"mainTitle": "Shifts",
-		"openShift": "Open shift",
+		"mainTitle": "Schichten",
+		"openShift": "offene Schicht",
 		"filter": {
 			"from": {
-				"label": "From",
-				"errorMsg": "From Is required."
+				"label": "Von",
+				"errorMsg": "Von Zeit ist erforderlich"
 			},
 			"to": {
-				"label": "To",
-				"errorMsg": "To Is required."
+				"label": "Bis",
+				"errorMsg": "Totime ist erforderlich"
 			}
 		},
-		"btn": "Export",
+		"btn": "Exportieren",
 		"settings": {
-			"noDataMessage": "No Timestamps Found.",
+			"noDataMessage": "Schicht nicht gefunden",
 			"add": {
 				"addButtonContent": "<i class='nb-plus'></i>",
 				"createButtonContent": "<i class='nb-checkmark'></i>",
@@ -389,53 +387,54 @@
 					"editable": false
 				},
 				"from_time_without_t": {
-					"title": "From",
+					"title": "Von",
 					"type": "string",
 					"width": "200px"
 				},
 				"to_time_without_t": {
-					"title": "To",
+					"title": "Bis",
 					"type": "string",
 					"width": "200px"
 				},
 				"note": {
-					"title": "Note",
+					"title": "Notiz",
 					"type": "string"
 				},
 				"manual_time": {
-					"title": "Break",
+					"title": "Pause",
 					"type": "number"
 				},
 				"emp_id": {
-					"title": "Employee ID",
+					"title": "Mitarbeiter-ID",
 					"type": "number"
 				},
 				"emp_name": {
-					"title": "Employee Name",
+					"title": "Mitarbeitername",
 					"type": "string"
 				},
 				"deducted_duration": {
-					"title": "Hours (deducted)",
+					"title": "Dauer in h (abzgl. Pause)",
 					"type": "any"
+					
 				}
 			}
 		}
 	},
 	"holiday": {
-		"mainTitle": "Holidays",
+		"mainTitle": "Urlaub",
 		"filter": {
 			"from": {
-				"label": "From",
-				"errorMsg": "From Is required."
+				"label": "Von",
+				"errorMsg": "Von Zeit ist erforderlich"
 			},
 			"to": {
-				"label": "To",
-				"errorMsg": "To Is required."
+				"label": "Bis",
+				"errorMsg": "Totime ist erforderlich"
 			}
 		},
-		"btn": "Export",
+		"btn": "Exportieren",
 		"settings": {
-			"noDataMessage": "No Holidays Found.",
+			"noDataMessage": "Kein Urlaub gefunden.",
 			"add": {
 				"addButtonContent": "<i class='nb-plus'></i>",
 				"createButtonContent": "<i class='nb-checkmark'></i>",
@@ -459,51 +458,51 @@
 					"editable": false
 				},
 				"from_time_without_t": {
-					"title": "From",
+					"title": "Von",
 					"type": "string"
 				},
 				"from_time_working_type": {
-					"title": "From Info",
+					"title": "Von Info",
 					"type": "string"
 				},
 				"to_time_without_t": {
-					"title": "To",
+					"title": "Bis",
 					"type": "string"
 				},
 				"to_time_working_type": {
-					"title": "To Info",
+					"title": "Bis Info",
 					"type": "string"
 				},
 				"note": {
-					"title": "Note",
+					"title": "Notiz",
 					"type": "string"
 				},
 				"emp_id": {
-					"title": "Employee ID",
+					"title": "Mitarbeiter-ID",
 					"type": "number"
 				},
 				"emp_name": {
-					"title": "Employee Name",
+					"title": "Mitarbeitername",
 					"type": "string"
 				}
 			}
 		}
 	},
 	"sicknote": {
-		"mainTitle": "Sick Notes",
+		"mainTitle": "Krankmeldung",
 		"filter": {
 			"from": {
-				"label": "From",
-				"errorMsg": "From Is required."
+				"label": "Von",
+				"errorMsg": "Von Zeit ist erforderlich"
 			},
 			"to": {
-				"label": "To",
-				"errorMsg": "To Is required."
+				"label": "Bis",
+				"errorMsg": "Totime ist erforderlich"
 			}
 		},
-		"btn": "Export",
+		"btn": "Exportieren",
 		"settings": {
-			"noDataMessage": "No sick notes found.",
+			"noDataMessage": "Keine Krankennote gefunden",
 			"add": {
 				"addButtonContent": "<i class='nb-plus'></i>",
 				"createButtonContent": "<i class='nb-checkmark'></i>",
@@ -527,117 +526,118 @@
 					"editable": false
 				},
 				"from_time_without_t": {
-					"title": "From",
+					"title": "Von",
 					"type": "string"
 				},
 				"from_time_working_type": {
-					"title": "From Info",
+					"title": "Von Info",
 					"type": "string"
 				},
 				"to_time_without_t": {
-					"title": "To",
+					"title": "Bis",
 					"type": "string"
 				},
 				"to_time_working_type": {
-					"title": "To Info",
+					"title": "Bis Info",
 					"type": "string"
 				},
 				"note": {
-					"title": "Note",
+					"title": "Notiz",
 					"type": "string"
 				},
 				"emp_id": {
-					"title": "Employee ID",
+					"title": "Mitarbeiter-ID",
 					"type": "number"
 				},
 				"emp_name": {
-					"title": "Employee Name",
+					"title": "Mitarbeitername",
 					"type": "string"
 				}
 			}
 		}
 	},
 	"settingpage": {
-		"mainTitle": "Setting",
-		"submitButton": "Save Settings",
-		"impLabel": "Break Times",
+		"mainTitle": "Einstellungen",
+		"submitButton": "Einstellung sichern",
+		"impLabel": "Pausen",
 		"times": {
 			"breakOne": {
-				"label": "Break 1",
-				"after": "Starting at",
-				"length": "Length of break"
+				"label": "Pause 1",
+				"after": "Ab Arbeitszeit",
+				"length": "Pausenlänge"
 			},
 			"breakTwo": {
-				"label": "Break 2",
-				"after": "Starting at",
-				"length": "Length of break (in addition)"
+				"label": "Pause 2",
+				"after": "Ab Arbeitszeit",
+				"length": "Pausenlänge (zusätzlich)"
 			}
 		}
 	},
 	"popups": {
 		"change_field_employee": {
-			"header": "Are You Sure ?",
-			"description": "Are you sure you want to commit edits?",
-			"submitButton": "Submit",
-			"cancelButton": "Cancel"
+			"header": "Sind Sie sicher?",
+			"description": "Sind Sie sicher, dass Sie Anpassungen vornehmen möchten?",
+			"submitButton": "Aktualisieren",
+			"cancelButton": "Zurück"
 		},
 		"change_field_timesheet": {
-			"header": "Are You Sure ?",
-			"description": "Are you sure you update your fields",
-			"submitButton": "Submit",
-			"cancelButton": "Cancel"
+			"header": "Sind Sie sicher?",
+			"description": "Sind Sie sicher, dass Sie diese Felder aktualisieren möchten?",
+			"submitButton": "Aktualisieren",
+			"cancelButton": "Zurück"
 		},
 		"csv_popups": {
-			"header": "Choose CSV format:",
-			"description": "Depending on your PC settings, you either require comma or semicolon delimited CSV. Try both to figure out what your PC requires.",
-			"rightButton": "Comma delimited",
-			"leftButton": "Semicolon delimited"
+			"header": "Wählen Sie das CSV-Format:",
+			"description": "Abhängig von Ihren PC-Einstellungen benötigen Sie entweder eine durch Komma oder Semikolon getrennte CSV. Versuchen Sie beides um herauszufinden, was Ihr PC benötigt.",
+			"rightButton": "Komma-getrennt",
+			"leftButton": "Semikolon-getrennt"
 		},
 		"delete_employee": {
-			"header": "Are You Sure ?",
-			"description": "Do you want to delete this employee?",
-			"submitButton": "Submit",
-			"cancelButton": "Cancel"
+			"header": "Sind Sie sicher?",
+			"description": "Möchten Sie diesen Mitarbeiter löschen?",
+			"submitButton": "Ja",
+			"cancelButton": "Zurück"
 		},
 		"delete_timesheet": {
-			"header": "Are You Sure ?",
-			"description": "Do you want to delete this timesheet",
-			"submitButton": "Submit",
-			"cancelButton": "Cancel"
+			"header": "Sind Sie sicher?",
+			"description": "Möchten Sie diese Arbeitszeittabelle löschen",
+			"submitButton": "Ja",
+			"cancelButton": "Zurück"
 		},
 		"setting_update": {
-			"header": "Are You Sure ?",
-			"description": "Do you want to change this setting",
-			"submitButton": "Submit",
-			"cancelButton": "Cancel"
+			"header": "Sind Sie sicher?",
+			"description": "Möchten Sie diese Einstellung ändern",
+			"submitButton": "Ja",
+			"cancelButton": "Zurück"
 		},
 		"NoInternet": {
-			"header": "OOPS! No Internet",
-			"description": "Failed to connect to server, please check your Internet Connection and try again."
+			"header": "OOPS! Kein Internet",
+			"description": "Fehler beim Herstellen einer Verbindung zum Server. Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
 		},
 		"403": {
 			"header": "OOPS! 403",
-			"description": "403 Forbidden You don't have permission to access / on this server"
+			"description": "403 Verboten. Sie haben keine Berechtigung, auf diesen Server zuzugreifen."
 		}
+	
 	},
-	"toaster": {
-		"employee_created": {
-			"success": "Employee created succefully.",
-			"err_msg": "Employee was not created. Please check input."
+	"toaster" :{
+		"employee_created" : {
+			"success" : "Mitarbeiter erfolgreich erstellt.",
+			"err_msg" : "Mitarbeiter wurde nicht erstellt. Bitte überprüfen Sie die Eingabe."
 		},
-		"employee_updated": {
-			"success": "Employee was updated succefully.",
-			"err_msg": "Employee was not updated. Please check input."
+		"employee_updated" : {
+			"success" : "Mitarbeiter wurde erfolgreich aktualisiert.",
+			"err_msg" : "Mitarbeiter wurde nicht aktulisiert. Bitte überprüfen Sie die Eingabe"
 		},
-		"employee_delete": {
-			"success": "Employee was sucessfully deleted."
+		"employee_delete" : {
+			"success" : "Mitarbeiter wurde gelöscht."
 		},
 		"rights": {
-			"success": "Rights were updated succefully."
+			"success": "Rechte wurden aktualisiert."
 		},
 		"settingData": {
-			"success": "Saved Settings !!",
-			"err_msg": "Setting Not set Please check fields."
+			"success": "Gespeicherte Einstellungen !!",
+			"err_msg": "Einstellungen nicht festgelegt Bitte überprüfen Sie die Felder !!"
 		}
 	},
 	"csvField": {
@@ -661,28 +661,27 @@
 					"title": "Pin"
 				},
 				"type": {
-					"title": "Type"
+					"title": "Typ"
 				},
+		
 				"wccurrencyFormated": {
-					"title": "Contract Hours (Monthly)"
+					"title": "Vertragsstunde Monat"
 				},
-			
 				"gsmcurrencyFormated": {
-					"title": "Gross Salary Month"
+					"title": "Bruttogehalt Monat"
 				},
 				"lhmcurrencyFormated": {
-					"title": "Limit Hour Month"
+					"title": "Stunden begrenzen Monat"
 				},
 				"ref_id": {
-					"title": "Ref-Id"
+					"title": "Referenz ID"
 				},
 				"surcharge": {
-					"title": "Surcharge"
+					"title": "Zuschlag"
 				},
 				"descr": {
-					"title": "Description"
-				}
-			}
+					"title": "Beschreibung"
+				}			}
 		},
 		"shift": {
 			"field": [
@@ -693,37 +692,38 @@
 				"type",
 				"manual_timeFormatted",
 				"note",
-				"ts",
-				"deducted_durationFormatted"
+				"deducted_durationFormatted",
+				"ts"
 			],
 			"header": {
 				"emp_id": {
-					"title": "Employee ID"
+					"title": "Mitarbeiter-ID"
 				},
 				"emp_name": {
-					"title": "Employee Name"
+					"title": "Mitarbeiter-Name"
 				},
 				"from_time_without_t": {
-					"title": "From"
+					"title": "Von"
 				},
 				"to_time_without_t": {
-					"title": "To"
+					"title": "Bis"
 				},
 				"type": {
-					"title": "Type"
+					"title": "Typ"
 				},
 				"manual_timeFormatted": {
-					"title": "Manual Time"
+					"title": "Pause (h)"
 				},
 				"note": {
-					"title": "Note"
+					"title": "Hinweis"
+				},
+				"deducted_durationFormatted": {
+					"title": "Stunden in h (abzgl. Pausen)"
 				},
 				"ts": {
 					"title": "Ts"
-				},
-				"deducted_durationFormatted": {
-					"title": "Deduction Hour"
 				}
+			
 			}
 		},
 		"holiday": {
@@ -738,22 +738,22 @@
 			],
 			"header": {
 				"emp_id": {
-					"title": "Employee ID"
+					"title": "Mitarbeiter-ID"
 				},
 				"emp_name": {
-					"title": "Employee Name"
+					"title": "Mitarbeiter-Name"
 				},
 				"from_time_working_type": {
-					"title": "From"
+					"title": "Von"
 				},
 				"to_time_working_type": {
-					"title": "To"
+					"title": "Bis"
 				},
 				"type": {
-					"title": "Type"
+					"title": "Typ"
 				},
 				"note": {
-					"title": "Note"
+					"title": "Hinweis"
 				},
 				"ts": {
 					"title": "Ts"
@@ -772,27 +772,28 @@
 			],
 			"header": {
 				"emp_id": {
-					"title": "Employee ID"
+					"title": "Mitarbeiter-ID"
 				},
 				"emp_name": {
-					"title": "Employee Name"
+					"title": "Mitarbeiter-Name"
 				},
 				"from_time_working_type": {
-					"title": "From"
+					"title": "Von"
 				},
 				"to_time_working_type": {
-					"title": "To"
+					"title": "Bis"
 				},
 				"type": {
-					"title": "Type"
+					"title": "Typ"
 				},
 				"note": {
-					"title": "Note"
+					"title": "Hinweis"
 				},
 				"ts": {
 					"title": "Ts"
 				}
 			}
 		}
+
 	}
 }
